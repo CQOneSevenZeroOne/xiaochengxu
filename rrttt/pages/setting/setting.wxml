@@ -1,0 +1,6 @@
+<!--pages/setting/setting.wxml-->
+<text>{{name}}</text>
+<view>
+  <view wx:for="{{arr}}">{{item}}</view>
+</view>
+<button bindtap="tap">ok</button>
